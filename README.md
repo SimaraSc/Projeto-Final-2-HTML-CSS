@@ -1,6 +1,6 @@
 # Projeto Final Ciclo Formativo Pretalab - Módulo HTML e CSS
 
-![gif introdução](<iframe src="https://giphy.com/embed/3f7B6DymlUhZC" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mic-beyonce-beyonc-black-excellence-3f7B6DymlUhZC">via GIPHY</a></p>)
+![gif introdução](<iframe src="https://giphy.com/embed/3f7B6DymlUhZC")
 
 ## Sobre o projeto
 Link do projeto no ar:
