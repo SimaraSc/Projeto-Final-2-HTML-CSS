@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,50 +8,147 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@300;400;500;700&family=Raleway:ital,wght@0,200;0,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <title>Projeto Final - Meu Portfólio</title>
 </head>
+
 <body>
-    <div id="menu">
-        <ul>
-            <li><a href="">Formação</a></li>
-            <li><a href="">Portfólio</a></li>
-            <li><a href="">Contato</a></li>
-        </ul>
-    </div>
-
-    <div id="perfil">
-        <img id="imagem_perfil"
-        src=""
-    </div>
-
-    <div id="formaçao">
-
-    </div>
-
-    <div id="portfolio">
-
-    </div>
-
-    <div id="contato">
-        <footer>
-            <ul>
-                <li>E-mail</li>
-                <li>Linkedin</li>
-                <li>Github</li>
+    <header class="header-menu">
+        <nav id="menu">
+            <ul class="lista-menu">
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
-        </footer>
-    </div>
+        </nav>
+    </header>
+
+    <section class="perfil">
+        <div class="subcontainer-principal container">
+            <div>
+                <img class="imagem_perfil"
+                src="./assets/foto-perfil-removebg.png"
+                alt="Mulher negra de óculos sorrindo, pose lateral" />
+            </div>
+
+            <div>
+                <h2 class="nome">Simara Sá</h2>
+                <h3 class="profissao">Zootecnista/Técnica em agropecuária/Estudante de Desenvolvimento Web Front-End</h3>
+            </div>
+
+            <div class="resumo">
+                <p>
+                    Mestranda em Zootecnia, na área de Nutrição de Monogástricos, na UFR - MT.
+                </p>
+                <p>
+                    Atualmente estudando desenvolvimento web Front-End.
+                </p>
+                <p>
+                    Zootecnista formada pela UEMA - Campus São Luís.
+                </p>
+                <p>
+                    Técnica em agropecuária formada pelo IFMA - Campus Maracanã.
+                </p>
+                <p>
+                    Atua nas áreas de produção e nutrição animal, avicultura, suinocultura, bem estar animal e extensão
+                    rural.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="formacao">
+        <div class="container article-lista">
+            <div>
+                <h3 class="topico-principal">Formação</h3>
+            </div>
+
+
+            <div class="lista-item">
+                <ul>
+                    <li>
+                        <p class="lista-titulo">Ciclo formativo</p>
+                        <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi
+                        </a>
+                        <p class="lista-descricao">
+                            O ciclo formativo tem o objetivo de iniciar mulheres negras na
+                            área de tecnologia para o mercado de trabalho. Durante o curso foram abordadas linguagens de programação HTML5 e CSS3, Lógica de programação, autogestão e soft skills.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lista-titulo">Mestrado em Zootecnia</p>
+                        <a class="lista-local">Universidade Federal de Rondonópolis - UFR</a>
+                        <p class="lista-descricao">
+                            Atualmente fazendo mestrado em Zootecnia, na área de Produção e Nutrição animal, com linha de pesquisa na área de Nutrição de não-ruminantes.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lista-titulo">Bacharelado em Zootecnia</p>
+                        <a class="lista-local">Universidade Estadual do Maranhão - UEMA</a>
+                        <p class="lista-descricao">
+                            O curso de Zootecnia da UEMA tem o objetivo de formar profissionais responsáveis para atuar no desenvolvimento rural,
+                            planejamento e administração técnica dos sistemas de criação de animais domésticos e silvestres, otimizando a utilização dos recursos disponíveis e de tecnologias sustentáveis.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container article-lista">
+            <div>
+                <h3 class="topico-principal">Meus Projetos</h3>
+            </div>
+            <div class="lista-item">
+                <ul>
+                    <li>
+                        <p class="lista-titulo">Projeto - Calculadora</p>
+                        <a href="https://simarasa-projetofinal1.netlify.app/" target="_blank"
+                            class="lista-local">Link do projeto</a>
+                        <p class="lista-descricao">
+                            Projeto desenvolvido no módulo de Javascript e Lógica de programação. O objetivo foi desenvolver uma calculadora que faz as operações básicas de soma, subtração, multiplicação e divisão, e também calculasse média.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="lista-titulo">Projeto - Currículo</p>
+                        <a href="https://curriculosimarasc.netlify.app/" target="_blank"
+                            class="lista-local">Link do projeto</a>
+                        <p class="lista-descricao">
+                            Projeto desenvolvido no módulo de HTML5 e CSS3. O objetivo foi desenvolver uma página HTML estilizada com CSS que contivessse o currículo profissional.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lista-titulo">Projeto - Meus links</p>
+                        <a href="https://portfoliossc.netlify.app/" target="_blank"
+                            class="lista-local">Link do projeto</a>
+                        <p class="lista-descricao">
+                            Projeto desenvolvido no módulo de HTML5 e CSS3. O objetivo foi desenvolver uma um portfólio profissional em uma página HTML estilizada com CSS.
+                        </p> 
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contato" class="rodape">
+        <div class="container">
+            <ul class="lista-rodape">
+                <li> <i class="fas fa-envelope-square estilo-icone"></i> <a href="mailto:simarascosta@hotmail.com"
+                        target="_blank" class="links"> simarascosta@hotmail.com</a></li>
+                <li> <i class="fab fa-linkedin estilo-icone"></i> <a
+                        href="https://www.linkedin.com/in/simara-s%C3%A1-657485204/" target="_blank"
+                        class="links">Simara Sá</a></li>
+                <li> <i class="fab fa-github-square estilo-icone"></i> <a href="https://github.com/SimaraSc"
+                        target="_blank" class="links">SimaraSc</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
